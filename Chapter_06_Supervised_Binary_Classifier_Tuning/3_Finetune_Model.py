@@ -6,7 +6,7 @@ import torch
 
 # Add the parent directory to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-# Add the child directory to sys.path
+# Change the working dir to current folder
 os.chdir(os.path.dirname(__file__))
 
 from Utils import load_pretrained_model, train_classifier_simple, plot_values, calc_accuracy_loader, set_device

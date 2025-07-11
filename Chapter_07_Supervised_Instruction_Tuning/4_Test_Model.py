@@ -2,13 +2,12 @@
 import sys
 import os
 import json
-import re
 from tqdm import tqdm
 import torch
 
 # Add the parent directory to sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-# Add the child directory to sys.path
+# Change the working dir to current folder
 os.chdir(os.path.dirname(__file__))
 
 from Constants import TOKENIZER, BASE_CONFIG, END_OF_TEXT_ID, BASE_CONFIG, MODEL_CONFIGS
