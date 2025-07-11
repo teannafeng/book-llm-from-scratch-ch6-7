@@ -1,0 +1,21 @@
+# Ignore all __pycache__ folders
+__pycache__/
+**/__pycache__/
+
+# Ignore all .pyc files everywhere
+*.pyc
+
+# Ignore any folder named "gpt2" at any depth
+**/gpt2/
+
+# Ignore any folder named "sms_spam_collection" at any depth
+**/sms_spam_collection/
+
+# Ignore any model files
+*.pth
+
+# Ignore any pdf files
+*.pdf
+
+# Ignore any json files
+*.json
