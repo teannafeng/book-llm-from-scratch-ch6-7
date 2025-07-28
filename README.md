@@ -7,7 +7,7 @@ This repository contains partly modified code based on the last two chapters of 
 - Scripts in chapter folders are prefixed with numbers for ordering and tracking.
 
 ## Structure (subject to change)
-```
+```text
 .
 ├── Chapter_06_Supervised_Binary_Classifier_Tuning/    # Code and data from Chapter 6
 ├── Chapter_07_Supervised_Instruction_Tuning/          # Code and data from Chapter 7
