@@ -38,7 +38,7 @@ def check_if_ollama_running():
     if not ollama_running:
         raise RuntimeError("Ollama not running. Launch ollama before proceeding.")
     
-    print(f"Ollla running:", check_if_running("ollama"))
+    print(f"Ollama running:", check_if_running("ollama"))
 
 # query_model("What do Llamas eat?"), model
 def query_model(prompt, model="llama3", url="http://localhost:11434/api/chat"):
