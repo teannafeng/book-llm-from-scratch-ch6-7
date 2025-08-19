@@ -1,7 +1,7 @@
 This repository contains partly modified code based on the last two chapters of [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch) by Sebastian Raschka.
 
 ## Notes
-- This repository is intended as a proof-of-concept demo and can be further refined for pedagogical use.
+- This repository is intended as a proof-of-concept demo.
 - Credit for the original code and concepts goes to Sebastian Raschka.
 - The file structure and some functions have been adapted for personal use; core content remains unchanged.
 - Scripts in chapter folders are numbered for ordering and tracking.
